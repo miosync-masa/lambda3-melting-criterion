@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 from scipy import stats
+import pandas as pd
 
 # ================================================================================
 # Dataset: Nanoparticle Melting Point Depression
@@ -439,3 +440,28 @@ print("\nConclusion: Six of seven materials show excellent agreement (R²_≥3nm
 print("with the 1/r Gibbs-Thomson law in the surface-dominated regime (r ≥ 3 nm),")
 print("confirming that Λ ≈ 1 at surface atomic sites governs nanoparticle melting.")
 print("="*80)
+
+# ================================================================================
+# Export csv
+# ================================================================================
+csv_data = []
+for name, res_data in results_all.items():
+    result = res_data['results']
+    radii = res_data['data']['radii']
+    Tm_exp = res_data['data']['Tm_exp']
+    Tm_bulk = complete_nano_data[name]['Tm_bulk']
+    
+    for r, Tm in zip(radii, Tm_exp):
+        csv_data.append({
+            'Material': name,
+            'Radius_nm': r * 1e9,
+            'Tm_K': Tm,
+            'Tm_bulk_K': Tm_bulk,
+            'Tm_ratio': Tm / Tm_bulk,
+            'Delta_Tm_ratio': (Tm_bulk - Tm) / Tm_bulk,
+            'Source_Notes': 'Experimental'  # ここはデータごとに変える
+        })
+
+df = pd.DataFrame(csv_data)
+df.to_csv('nanoparticle_melting_gibbs_thomson.csv', index=False)
+print("\n✅ CSV saved: nanoparticle_melting_gibbs_thomson.csv")
