@@ -206,7 +206,7 @@ Please open an issue on GitHub or contact the corresponding author.
 
 ## Acknowledgments
 
-We thank our industrial partners (Nidec, NSK, JTEKT, NACHI-Fujikoshi) for experimental validation support and valuable discussions on practical applications.
+We thank our industrial partners (Nidec DriveTechnology) for experimental validation support and valuable discussions on practical applications.
 
 Special thanks to the materials science community for providing high-quality experimental data used in this study.
 
@@ -214,7 +214,7 @@ Special thanks to the materials science community for providing high-quality exp
 
 ## Version History
 
-- **v1.0.0** (2025-XX-XX): Initial release supporting Nature Materials submission
+- **v1.0.0** (2025-11-14): Initial release supporting Nature Materials submission
   - Λ³ thermal softening model
   - Lindemann criterion derivation
   - Gibbs-Thomson nanoparticle analysis
