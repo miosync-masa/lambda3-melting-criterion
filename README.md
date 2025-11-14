@@ -197,7 +197,7 @@ Code and data are freely available for academic and commercial use with attribut
 
 **Masamichi Iizumi**  
 CEO, Miosync Inc.  
-Email: [To be added]
+Email: [m.iizumi@miosync.email]
 
 **Issues & Questions**:  
 Please open an issue on GitHub or contact the corresponding author.
