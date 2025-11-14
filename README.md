@@ -13,7 +13,7 @@ We demonstrate that:
 3. **Nanoparticle melting** follows Gibbs-Thomson law (1/r) in the surface-dominated regime (r ≥ 3 nm)
 
 **Manuscript**: [To be added upon acceptance]  
-**Authors**: Masamichi Iizumi (Miosync Inc.) [Additional authors TBD]  
+**Authors**: Masamichi Iizumi (Miosync Inc.) 
 **Journal**: Nature Materials (under preparation)
 
 ---
