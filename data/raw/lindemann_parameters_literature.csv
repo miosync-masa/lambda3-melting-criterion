@@ -1,0 +1,8 @@
+Material,Structure,Tm_K,delta_L_exp,delta_L_definition,Method,Source_Primary,Source_Year,Notes
+Fe,BCC,1811,0.18,r_nn,Theoretical phonon-instability model,Kuramoto+ J. Phys. Soc. Jpn,2010,δ=0.183 for BCC metals
+W,BCC,3695,0.16,r_nn,Lindemann rule (theory),Minakov & Levashov Phys. Rev. B,2015,BCC range 0.15-0.18
+Cu,FCC,1357,0.1,r_nn,Lattice-dynamics (converted from a-basis),Shapiro Phys. Rev. B,1970,Original: 0.071 vs a; converted to r_nn
+Al,FCC,933,0.1,r_nn,Lattice-dynamics (converted from a-basis),Shapiro Phys. Rev. B,1970,Original: 0.071 vs a; converted to r_nn
+Ni,FCC,1728,0.11,r_nn,Lattice-dynamics (converted from a-basis),Shapiro Phys. Rev. B,1970,Original: 0.078 vs a; converted to r_nn
+Ti,HCP,1941,0.1,r_nn,Lindemann criterion (Debye),Vopson+ Solid State Comm,2020,HCP δ≈0.10; Ti is α-HCP at low T
+Mg,HCP,923,0.117,r_nn,First-principles/MD,Kavarnadze+ Phys. Status Solidi B,2023,Ab initio calculation for HCP Mg
