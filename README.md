@@ -54,7 +54,7 @@ lambda3-melting-criterion/
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/[username]/lambda3-melting-criterion.git
+git clone https://github.com/miosync-masa/lambda3-melting-criterion.git
 cd lambda3-melting-criterion
 
 # Install dependencies
